@@ -5,11 +5,22 @@
     text-align: center;
     text-decoration: underline;
 }
+#caption img {
+    -webkit-box-shadow: 15px 15px 8px;
+    box-shadow: 15px 15px 8px;
+}
+
 .main1 {
     color: #008C17;
     text-align: left;
     font-size: large;
+    background-color: #DD5D00;
 }
+#maincontain img {
+    -webkit-box-shadow: 16px 16px;
+    box-shadow: 16px 16px;
+}
+
 .main2 {
     color: #A410B9;
     font-size: small;
