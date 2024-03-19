@@ -1,0 +1,16 @@
+@charset "utf-8";
+.title1 {
+    color: #0064EF;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+}
+.main1 {
+    color: #008C17;
+    text-align: left;
+    font-size: large;
+}
+.main2 {
+    color: #A410B9;
+    font-size: small;
+}
