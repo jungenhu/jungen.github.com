@@ -51,6 +51,25 @@
     return new bootstrap.Tooltip(tooltipTriggerEl)
   });
 </script>
+<hr>
+<h1>彈出提示</h1>
+<div class="container text-center">
+  <img src="flowers3.jpg" width="50%" class="img-fluid"><br>
+  <button type="button" class="btn btn-secondary" data-bs-container="body" 
+    data-bs-toggle="popover" data-bs-placement="top" data-bs-content="太陽花">
+    在上方顯示彈出提示</button>
 
+  <button type="button" class="btn btn-secondary" title="圖片標題" 
+    data-bs-toggle="popover" data-bs-placement="right" data-bs-content="太陽花">
+    在右側顯示彈出提示</button>
+
+<script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  });
+</script>
+
+	
 </body>
 </html>
